@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/general_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvARtitle"
+            style="@style/dialog_text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/etARcourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Course Name"
+            android:inputType="textCapWords|textAutoComplete"
+            android:scrollHorizontally="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etARcredithour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Credit Hour"
+            android:inputType="textNoSuggestions|numberDecimal"
+            android:scrollHorizontally="true" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spinARgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bARreset"
+            style="@style/small_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/flat_button_secondary"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/bARadd"
+            style="@style/small_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/flat_button"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="3"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="Add" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/general_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        style="@style/dialog_text_title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvDialogContent"
+        style="@style/dialog_text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bDialogCancel"
+            style="@style/word_button_text_secondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word_button"
+            android:shadowColor="@android:color/black"
+            android:text="@string/Cancel" />
+
+        <Button
+            android:id="@+id/bDialogOK"
+            style="@style/word_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/word_button"
+            android:shadowColor="@android:color/black"
+            android:text="@string/OK" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlCPmainlayout"
+    style="@style/general_style"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tvCPcurrent"
+        style="@style/cgpa_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="CGPA"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  
+
+    <TextView
+        android:id="@+id/tvCPmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:text="Congratulations"
+        android:textColor="#616161"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+        android:id="@+id/vCPanim"
+        style="@style/dialog_text_title"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tvCPcurrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ball" />
+
+</RelativeLayout>

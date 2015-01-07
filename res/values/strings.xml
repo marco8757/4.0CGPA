@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">4.0 CGPA</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="Enable" translatable="false">Enable</string>
+    <string name="OK" translatable="false">OK</string>
+    <string name="Cancel" translatable="false">Cancel</string>
+    <string name="AddGrade" translatable="false">Add Grade</string>
+    <string name="GradeSetting" translatable="false">Setting</string>
+    <string name="EmptyGradeListTitle" translatable="false">No results yet...</string>
+    <string name="EmptyGradeList" translatable="false">Add your grades now by clicking menu on top right corner</string>
+
+</resources>

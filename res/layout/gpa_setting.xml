@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    style="@style/general_style"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="A+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="A"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAa3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="A-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="B+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="B"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="B-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="C+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="C"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="C-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="D+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="D"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="D-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="E+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="E"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAe3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="E-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAf1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="F+"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="F"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="5" >
+
+            <EditText
+                android:id="@+id/etGPAf3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="5"
+                android:hint="F-"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/cbGPAEnable18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Enable" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:weightSum="2" android:gravity="right" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" style="@style/general_style">
+
+    <Button
+        android:id="@+id/bDCMedit"
+        style="@style/small_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flat_button"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Edit Result" />
+
+    <Button
+        android:id="@+id/bDCMremove"
+        style="@style/small_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flat_button_secondary"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Remove Result" />
+
+</LinearLayout>
